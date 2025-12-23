@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int guess, num = 7;
+    printf("Guess number: ");
+    scanf("%d", &guess);
+
+    if(guess == num)
+        printf("Correct!");
+    else
+        printf("Wrong!");
+
+    return 0;
+}
